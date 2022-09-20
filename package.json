@@ -1,0 +1,16 @@
+{
+  "name": "digital-garden",
+  "version": "1.0.0",
+  "description": "A digital garden with Obsidian and Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "clean-css": "^5.3.1"
+  }
+}

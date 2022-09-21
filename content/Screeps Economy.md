@@ -16,4 +16,5 @@ Storage structures can hold up to a million energy. This means that RCL4 changes
 
 Storage provides a buffer in case energy production significantly outpaces consumption (or vice versa). Until the storage is built, production and consumption need to be balanced. If more energy is produced than used, it will decay, meaning that energy, CPU, and spawn time are being wasted. If not enough energy is being produced, creeps will be unable to work, and energy/CPU/spawn time will again be wasted.
 
-Once the storage is built, this is less of an issue: excess energy can be shunted to storage, and then consumption can be scaled up to use that excess.
+Once the storage is built, this is less of an issue: excess energy can be shunted to storage, and then consumption can be scaled up to use that excess. 
+

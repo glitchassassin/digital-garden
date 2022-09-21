@@ -5,4 +5,3 @@ This is a living curation of knowledge, centered around topics I am interested i
 ## Paths
 
 - [[Screeps]]
-- [[Testing Git]]

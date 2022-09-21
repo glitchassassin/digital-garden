@@ -10,6 +10,8 @@ There are three primary currencies in Screeps: energy, CPU, and spawn time.
 
 The goal of the economy system is to maximize the amount of energy being harvested and used given the constraints of CPU and spawn time.
 
-## Economy Phases
+## Economy Phases and Storage
 
-There are two primary economy phases: before and after storage. 
+Storage structures can hold up to a million energy. This means that RCL4 changes the game dramatically. The pre-RCL4 economy is a very small part of the game, but may be significant in [BotArena-type competitions.](https://screepspl.us/events/) 
+
+Storage provides a buffer in case energy production significantly outpaces consumption (or vice versa). Before 

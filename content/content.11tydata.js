@@ -28,8 +28,6 @@ module.exports = {
                             .trim()
                     ));
 
-                console.log(outboundLinks, currentFileSlug)
-
                 // If the other note links here, return related info
                 if(outboundLinks.some(link => caselessCompare(link, currentFileSlug))) {
 

@@ -14,4 +14,6 @@ The goal of the economy system is to maximize the amount of energy being harvest
 
 Storage structures can hold up to a million energy. This means that RCL4 changes the game dramatically. The pre-RCL4 economy is a very small part of the game, but may be significant in [BotArena-type competitions.](https://screepspl.us/events/) 
 
-Storage provides a buffer in case energy production significantly outpaces consumption (or vice versa). Before 
+Storage provides a buffer in case energy production significantly outpaces consumption (or vice versa). Until the storage is built, production and consumption need to be balanced. If more energy is produced than used, it will decay, meaning that energy, CPU, and spawn time are being wasted. If not enough energy is being produced, creeps will be unable to work, and energy/CPU/spawn time will again be wasted.
+
+Once the storage is built, this is less of an issue: excess energy can be shunted to storage, and then consumption can be scaled up to use that excess.

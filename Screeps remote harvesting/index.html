@@ -12,19 +12,7 @@
   </head>
   <body>
     <main>
-        <h1>Economy</h1>
-<p>There are three primary currencies in Screeps: energy, CPU, and spawn time.</p>
-<p><strong>Energy</strong> is harvested from sources and used to spawn creeps, build structures, upgrade the controller, or pay for boosts/terminal transfers/link transfers/etc.</p>
-<p><strong>CPU</strong> is generally a fixed amount, derived from GCL (except on shard3 or some private servers), and limits the number of actions creeps can take (due to the 0.2cpu intent cost).</p>
-<p><strong>Spawn time</strong> is a restriction of the time each creep part takes to spawn and the creep's total lifetime. Assuming perfect efficiency refilling spawns/extensions, each spawn can support <code>CREEP_LIFE_TIME / CREEP_SPAWN_TIME = 1500 / 3 = 500</code> creep parts, total.</p>
-<p>The goal of the economy system is to maximize the amount of energy being harvested and used given the constraints of CPU and spawn time.</p>
-<h2>Economy Phases and Storage</h2>
-<p>Storage structures can hold up to a million energy. This means that RCL4 changes the game dramatically. The pre-RCL4 economy is a very small part of the game, but may be significant in <a href="https://screepspl.us/events/">BotArena-type competitions.</a></p>
-<p>Storage provides a buffer in case energy production significantly outpaces consumption (or vice versa). Until the storage is built, production and consumption need to be balanced. If more energy is produced than used, it will decay, meaning that energy, CPU, and spawn time are being wasted. If not enough energy is being produced, creeps will be unable to work, and energy/CPU/spawn time will again be wasted.</p>
-<p>Once the storage is built, this is less of an issue: excess energy can be shunted to storage, and then consumption can be scaled up to use that excess.</p>
-<h2>Production</h2>
-<p>Each room has one or two sources, which regenerate every 300 ticks. When the room is owned or reserved, each source can be harvested for 10 energy/tick; unowned rooms generate half that.</p>
-<p>20 e/t doesn't go very far, so most bots will also harvest energy from nearby rooms - <a href="/Screeps%20remote%20harvesting/">remote harvesting</a>.</p>
+        <h1>Remote Harvesting</h1>
 
         <section>
             <hr>
@@ -33,10 +21,11 @@
             <ul class="backlinks-container">
                 
                     <li class="backlink">
-                        <a href="/Screeps/" class="backlink__link">glitchassassin&#39;s digital garden</a>
+                        <a href="/Screeps Economy/" class="backlink__link">glitchassassin&#39;s digital garden</a>
                         <div class="backlink__preview" role="none">
-                            <h1>Screeps</h1>
-<p><a href="https://screeps.com/">Screeps</a> is an MMORTS in which you write a script to control your units. There's a high skill ceiling because of the complexity of the environment - everything from unit composition to building placement is</p>
+                            <h1>Economy</h1>
+<p>There are three primary currencies in Screeps: energy, CPU, and spawn time.</p>
+<p><strong>Energy</strong> is harvested from sources and used to spawn creeps, build structures, upgrade the controller, or pay for boosts/terminal transfers/link trans</p>
 
                         </div>
                     </li>

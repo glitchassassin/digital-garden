@@ -12,5 +12,12 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "clean-css": "^5.3.1"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.4",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-obsidian": "^1.1.0",
+    "title-case": "^3.0.3"
   }
 }

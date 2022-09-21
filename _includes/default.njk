@@ -18,6 +18,24 @@ title: glitchassassin's digital garden
   <body>
     <main>
         {{ content | safe }}
+        <section>
+            <hr>
+            <h5>Backlinks</h5>
+            {% if backlinks.length > 0%}
+            <ul class="backlinks-container">
+                {% for link in backlinks %}
+                    <li class="backlink">
+                        <a href="{{link.url}}" class="backlink__link">{{link.title}}</a>
+                        <div class="backlink__preview" role="none">
+                            {{link.preview | markdownify | safe }}
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <p>No backlinks found.</p>
+            {% endif %}
+        </section>
     </main>
   </body>
 </html>

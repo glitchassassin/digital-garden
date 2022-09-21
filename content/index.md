@@ -1,12 +1,7 @@
-# Welcome to the Garden
+# glitchassassin's digital garden
 
-Layout should have...
+This is a living curation of knowledge, centered around topics I am interested in. Unlike a blog or traditional website, this is not designed to be static: pages in the garden will change and update as I learn or reconsider ideas. Feel free to revisit this garden from time to time to see what has changed.
 
-- Reset styles
-- Simple textured background (perhaps with organic curves?)
-- Interesting (but easily readable) typography
-- Primary color for emphasis (underlines, e.g.) - variant of natural green (perhaps with gradient)
-- Sensible mobile breakpoints
-- Code highlighting
+## Paths
 
-[Markdown sample](/sample/)
+[[Screeps]]

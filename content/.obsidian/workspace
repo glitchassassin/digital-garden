@@ -14,6 +14,19 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "ee4e8dd388e1d0ee",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Screeps remote harvesting.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Screeps Economy.md",
+                "file": "Screeps remote harvesting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Screeps Economy.md",
+                "file": "Screeps remote harvesting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Screeps Economy.md"
+                "file": "Screeps remote harvesting.md"
               }
             }
           }
@@ -128,8 +141,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dd463c467e8b448e",
+  "active": "ee4e8dd388e1d0ee",
   "lastOpenFiles": [
+    "Screeps Economy.md",
     "Screeps.md",
     "index.md",
     "Testing Git.md"

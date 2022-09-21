@@ -18,3 +18,8 @@ Storage provides a buffer in case energy production significantly outpaces consu
 
 Once the storage is built, this is less of an issue: excess energy can be shunted to storage, and then consumption can be scaled up to use that excess. 
 
+## Production
+
+Each room has one or two sources, which regenerate every 300 ticks. When the room is owned or reserved, each source can be harvested for 10 energy/tick; unowned rooms generate half that.
+
+20 e/t doesn't go very far, so most bots will also harvest energy from nearby rooms - [[Screeps remote harvesting|remote harvesting]]. 

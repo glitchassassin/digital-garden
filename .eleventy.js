@@ -3,6 +3,7 @@ let markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("content/images", "images")
+    eleventyConfig.addPassthroughCopy('.nojekyll');
     eleventyConfig.addFilter("cssmin", function (code) {
         return new CleanCSS({}).minify(code).styles;
     });

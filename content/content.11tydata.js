@@ -7,7 +7,7 @@ function caselessCompare(a, b) {
 
 module.exports = {
     eleventyComputed: {
-        title: data => (data.title || data.page.fileSlug),
+        title: data => (data.title || data.page.fileSlug || "glitchassassin's digital garden"),
         backlinks: (data) => {
             const notes = data.collections.notes;
             const currentFileSlug = data.page.filePathStem.replace('/', '');

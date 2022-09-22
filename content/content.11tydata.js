@@ -1,3 +1,5 @@
+const slugify = require("@sindresorhus/slugify");
+
 // This regex finds all wikilinks in a string
 const wikilinkRegExp = /\[\[\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/g
 
@@ -8,6 +10,7 @@ function caselessCompare(a, b) {
 module.exports = {
     eleventyComputed: {
         title: data => (data.title || data.page.fileSlug || "glitchassassin's digital garden"),
+        permalink: data => data.permalink || `/${slugify(data.page.fileSlug)}/`,
         backlinks: (data) => {
             const notes = data.collections.notes;
             const currentFileSlug = data.page.filePathStem.replace('/', '');

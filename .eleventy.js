@@ -1,5 +1,6 @@
 const CleanCSS = require("clean-css");
-let markdownIt = require("markdown-it");
+const markdownIt = require("markdown-it");
+const slugify = require("@sindresorhus/slugify");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("content/images", "images")
@@ -25,7 +26,7 @@ module.exports = function (eleventyConfig) {
                     const parts = match.raw.slice(2, -2).split("|");
                     parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, "");
                     match.text = (parts[1] || parts[0]).trim();
-                    match.url = `/${parts[0].trim()}/`;
+                    match.url = `/${slugify(parts[0].trim())}/`;
                 }
             })
         })

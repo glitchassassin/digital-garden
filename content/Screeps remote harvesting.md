@@ -142,4 +142,7 @@ Well, the conclusion, I leave it to yours
 
 ## Remote Defense
 
-Invader cores will harass remotes, reserving the controller to lock the sources from being harvested. 
+Invader cores will harass remotes, reserving the controller to lock the sources from being harvested. These are easy to defend against; they do not attack, so a simple guard creep with a pattern of 1A/1M can kill them with no trouble.
+
+Harassment from other bots can be more expensive. If it costs more to defend a remote than the energy it brings in, it may be more economical to simply abandon the remote until it can be safely harvested again.
+

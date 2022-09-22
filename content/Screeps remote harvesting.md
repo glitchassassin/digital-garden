@@ -146,4 +146,4 @@ Invader cores will harass remotes, reserving the controller to lock the sources 
 
 Harassment from other bots can be more expensive. If it costs more to defend a remote than the energy it brings in, it may be more economical to simply abandon the remote until it can be safely harvested again.
 
-This can be tracked by measuring the energy spent on a remote (spawning, repairing roads/containers, etc.)
+This can be tracked by measuring the energy spent on a remote (spawning, defense, repairing roads/containers, etc.) and comparing it to the energy brought back 

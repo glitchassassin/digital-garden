@@ -1,5 +1,7 @@
 # Remote Harvesting
 
+The standard approach to remote harvesting is to build containers next to the source and drop-harvest into the containers. Roads from the main room to the remote source make dedicated haulers more efficient (the hauiler can move at 1 square/tick with 1M/2C instead of 2M/2C, saving energy and spawn time). If the harvester has 6 work parts, it can use its down time (when not harvesting) to repair the container, saving on sending a dedicated repairer.
+
 An analysis originally posted in the Screeps slack, reposted by [Donatzor in the Discord](https://discord.com/channels/860665589738635336/864238310058754069/885907058581454880):
 
 ```
@@ -138,3 +140,6 @@ Notice the great loss between dist == 250 and dist == 251
 Well, the conclusion, I leave it to yours
 ```
 
+## Remote Defense
+
+Invader cores will harass remotes, reserving the controller to lock the sources from being harvested. 

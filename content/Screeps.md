@@ -5,4 +5,4 @@
 ## Domains of Interest
 
 - [[Screeps Economy|Economy]]
-- [[Screeps Room Planning|Room Planning]]
+- [[Screeps infrastructure|Infrastructure]]

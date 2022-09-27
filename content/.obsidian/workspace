@@ -11,6 +11,7 @@
           "state": {
             "file": "Screeps Economy.md",
             "mode": "source",
+            "backlinks": false,
             "source": false
           }
         }

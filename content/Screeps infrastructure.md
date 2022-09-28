@@ -15,4 +15,5 @@ Structures should generally be built as soon as they come available at a given R
 
 ## Repairing
 
-Some structures decay with time and/or use: roads, containers, and ramparts. 
+Some structures decay with time and/or use: roads, containers, and ramparts. Other structures take damage when attacked by enemy creeps, invaders, or nukes.
+

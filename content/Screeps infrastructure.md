@@ -26,3 +26,5 @@ Maintenance tasks should also be prioritized:
 1. Maintaining barriers - if the enemy can get inside our perimeter, repairing will be the least of our concerns.
 2. Maintaining economy structures - these are critical to ongoing energy production, and will hamper repair efforts if not addressed. This includes roads, containers, links, spawns, extensions, etc.
 3. Maintaining other structures - Factory, observer, etc. do not directly impact energy production and are relegated to the end of the queue.
+
+Structures that decay should have a repair threshold. We don't want to send a repairer every time a road loses a few hitpoints. 

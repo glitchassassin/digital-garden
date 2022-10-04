@@ -23,7 +23,7 @@ Maintenance generally ought to be prioritized above new construction. Otherwise,
 
 Maintenance tasks should also be prioritized:
 
-1. Maintaining barriers - if the enemy can get inside our perimeter, repairing will be the least of our concerns.
+1. Maintaining barriers - if the enemy can get inside our perimeter, repairing will be the least of our concerns. If we are not currently under siege, economy structures are a higher priority than barriers.
 2. Maintaining economy structures - these are critical to ongoing energy production, and will hamper repair efforts if not addressed. This includes roads, containers, links, spawns, extensions, etc.
 3. Maintaining other structures - Factory, observer, etc. do not directly impact energy production and are relegated to the end of the queue.
 

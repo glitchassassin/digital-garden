@@ -18,4 +18,5 @@ If they move at half speed instead, we can distribute the parts as 29A/37H/34M. 
 
 If they move at one tile every three ticks, we can distribute the parts as 33A/42H/25M. The duo spends 600 ticks traveling, then the remaining 900 ticks attacking the power bank. `33 ATTACK * 30 dmg * 900 ticks = 891k dmg`
 
-So our actual build will vary depending on the distance of the power bank. We'll also use this to calculate the 
+So our actual build will vary depending on the distance of the power bank. We'll also use this to calculate the number of duos we'll need to crack the bank.
+

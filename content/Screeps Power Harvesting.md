@@ -26,4 +26,4 @@ We'll need to spawn enough haulers to move the power back to base. This is the e
 
 ## Competition
 
-Other bots 
+Other bots also try to harvest power banks. When competition is detected, we can either yield, abandoning our claim; contest it, committing more resources to fight off their harvesters; or scalp it, letting them break the power bank and then swooping in to fight off their haulers and steal the power. 

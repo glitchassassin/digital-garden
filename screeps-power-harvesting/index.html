@@ -16,7 +16,13 @@
 <p><a href="https://docs.screeps.com/api/#StructurePowerBank">Power banks</a> spawn in highways. Each power bank has 2,000,000 hitpoints and contains 500-10,000 units of power. They are not protected by creeps, but will return 50% of the damage dealt. We need to first attack the power bank, then haul the dropped power back to base. This will be a coordinated mission.</p>
 <h2>Attacking the Power Bank</h2>
 <p>Let's begin by assuming we're using unboosted minions.</p>
-<p>We'll crack the power bank with ATTACK creeps. Each ATTACK part deals 30 damage, which means the bank will be returning 15 damage. It will take <code>2,000,000 / 30 = 66,667</code></p>
+<p>We'll crack the power bank with <code>ATTACK</code> creeps. Each <code>ATTACK</code> part deals 30 damage, which means the bank will be returning 15 damage. It will take <code>2,000,000 / 30 = 66,667</code> hits from an attack part to finish the job.</p>
+<p>Our attackers will be complemented by a healer to balance the power bank's return damage. Heal parts only heal 12 per tick, irritatingly, so we need 5 <code>HEAL</code> to compensate for the return damage for every 4 <code>ATTACK</code> parts. The attack and heal actions <a href="https://docs.screeps.com/simultaneous-actions.html">conflict with each other</a>, so it works best to have these be separate minions.</p>
+<p>The obvious build would try to balance <code>MOVE</code> parts to move our duo at one tile per tick, but depending on the range of the power bank, it may be more efficient to move every other tick and have more <code>ATTACK</code> parts while the duo remains at work.</p>
+<p>Let's say the power bank is 200 tiles away from base. If they have 22A/28H/50M between them, the duo spends 200 ticks traveling, then the remaining 1300 ticks attacking the power bank. <code>22 ATTACK * 30 dmg * 1300 ticks = 858k dmg</code></p>
+<p>If they move at half speed instead, we can distribute the parts as 29A/37H/34M. The duo spends 400 ticks traveling, then the remaining 1100 ticks attacking the power bank. <code>29 ATTACK * 30 dmg * 1100 ticks = 957k dmg</code></p>
+<p>If they move at one tile every three ticks, we can distribute the parts as 33A/42H/25M. The duo spends 600 ticks traveling, then the remaining 900 ticks attacking the power bank. <code>33 ATTACK * 30 dmg * 900 ticks = 891k dmg</code></p>
+<p>So our actual build will vary depending on the distance of the power bank. We'll also use this to calculate the</p>
 
         <section>
             <hr>

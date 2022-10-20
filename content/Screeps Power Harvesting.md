@@ -26,4 +26,14 @@ We'll need to spawn enough haulers to move the power back to base. This is the e
 
 ## Competition
 
-Other bots also try to harvest power banks. When competition is detected, we can either yield, abandoning our claim; contest it, committing more resources to fight off their harvesters; or scalp it, letting them break the power bank and then swooping in to fight off their haulers and steal the power. 
+Other bots also try to harvest power banks. When competition is detected, we can either yield, abandoning our claim; contest it, committing more resources to fight off their harvesters; or scalp it, letting them break the power bank and then swooping in to fight off their haulers and steal the power.
+
+For now, we'll attempt to contest with just the duos we have. If that fails, we'll abandon the claim.
+
+## Cost Estimation
+
+It's fairly straightforward to estimate the cost to crack a power bank - it's just the cost of the duos and haulers (minus whatever can be recovered from the haulers after recycling).
+
+This should be compared with the current market cost of power to determine if a power bank is worth cracking.
+
+If it is, the analysis (including the path distance, the number of duos and haulers to commit, and estimated cost of power recovered) should be converted to an order that can generate SquadMissions.

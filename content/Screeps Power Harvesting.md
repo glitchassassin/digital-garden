@@ -20,3 +20,10 @@ If they move at one tile every three ticks, we can distribute the parts as 33A/4
 
 So our actual build will vary depending on the distance of the power bank. We'll also use this to calculate the number of duos we'll need to crack the bank.
 
+## Exfiltrating the Power
+
+We'll need to spawn enough haulers to move the power back to base. This is the easy part; they just need to spawn far enough ahead of time to be on hand when the bank breaks. At most, we'll need eight unboosted haulers to handle 10,000 units of power - again, we'll spawn based on the actual quantity available. The haulers can recycle after depositing power back at base.
+
+## Competition
+
+Other bots 

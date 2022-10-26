@@ -5,4 +5,8 @@
 ## Domains of Interest
 
 - [[Screeps Economy|Economy]]
+	- [[Screeps remote security]]
 - [[Screeps infrastructure|Infrastructure]]
+- Power
+	- [[Screeps Power Harvesting|Harvesting]]
+	- 

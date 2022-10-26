@@ -19,4 +19,5 @@ So the logic should look something like this:
 	- If an adjacent structure (besides the link) needs energy:
 		- If there is unclaimed energy in the link, withdraw and claim the energy.
 		- Otherwise, if the container is not the only structure that needs energy, withdraw and claim the energy from the container.
-- 
+		- Otherwise, if the opposite container is more than EXTENSION_CAPACITY higher than this container, withdraw from the center extension
+		- Transfer energy to an adjacent structure, preferring spawns, then extensions with no other filler, then extensions *with* another filler, then the container. If our container has the lowest level, *don't* fill the center extension.

@@ -28,11 +28,12 @@
 <ul>
 <li>If there is unclaimed energy in the link, withdraw and claim the energy.</li>
 <li>Otherwise, if the container is not the only structure that needs energy, withdraw and claim the energy from the container.</li>
+<li>Otherwise, if the opposite container is more than EXTENSION_CAPACITY higher than this container, withdraw from the center extension</li>
+<li>Transfer energy to an adjacent structure, preferring spawns, then extensions with no other filler, then extensions <em>with</em> another filler, then the container. If our container has the lowest level, <em>don't</em> fill the center extension.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li></li>
 </ul>
 
         <section>

@@ -10,4 +10,5 @@ Harassment from other bots can be more expensive. If it costs more to defend a r
 
 I began by measuring the energy spent on a remote (spawning, defense, repairing roads/containers, etc.) and comparing it to the energy brought back. However, my experience in SWC 212 showed that this takes too much time to present, and doesn't accurately reflect the danger of harassers.
 
-Rather than tracking on a per-room basis, we need to track the zone that an enemy is willing and able to harass. 
+Rather than tracking on a per-room basis, we need to track the zone that an enemy is willing and able to harass. Then we need to evaluate the cost to protect our creeps from harassment, and determine if the remotes are worth the cost.
+

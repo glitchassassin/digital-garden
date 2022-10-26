@@ -5,152 +5,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Screeps remote harvesting</title>
+    <title>Screeps remote security</title>
     <style>
         @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap);html{font-size:1.2em;font-family:Montserrat,sans-serif}@media screen and (min-width:600px){html{font-size:1.5em}}body,html{background:radial-gradient(1.5em 6.28571em at 1.95em,rgba(0,60,0,0) 50%,rgba(0,60,0,.25) 50%,rgba(0,60,0,.25) 55%,rgba(0,60,0,0) 55%) 0 0,radial-gradient(1.5em 6.28571em at -.45em,rgba(0,60,0,0) 50%,rgba(0,60,0,.25) 50%,rgba(0,60,0,.25) 55%,rgba(0,60,0,0) 55%) 1.5em 5.5em,radial-gradient(2.3em 4.57143em at 2.99em,rgba(0,60,0,0) 50%,rgba(0,60,0,.3) 50%,rgba(0,60,0,.3) 55%,rgba(0,60,0,0) 55%) 0 0,radial-gradient(2.3em 4.57143em at -.69em,rgba(0,60,0,0) 50%,rgba(0,60,0,.3) 50%,rgba(0,60,0,.3) 55%,rgba(0,60,0,0) 55%) 2.3em 4em,radial-gradient(3.5em 6.28571em at 4.55em,rgba(0,60,0,0) 50%,rgba(0,60,0,.25) 50%,rgba(0,60,0,.25) 55%,rgba(0,60,0,0) 55%) 0 0,radial-gradient(3.5em 6.28571em at -1.05em,rgba(0,60,0,0) 50%,rgba(0,60,0,.25) 50%,rgba(0,60,0,.25) 55%,rgba(0,60,0,0) 55%) 3.5em 5.5em,radial-gradient(#205020,#000);background-color:#141414;background-size:1.5em 11em,1.5em 11em,2.3em 8em,2.3em 8em,3.5em 11em,3.5em 11em,100% 100%;background-repeat:repeat;color:#eee}body{padding:0 1em}main{background-color:#141414;max-width:1200px;margin:0 auto;padding:.1px 1em;box-shadow:0 0 20px 5px #0008;min-height:100vh}p{padding:0 3em}h1,h2,h3,h4,h5,h6{font-family:'Playfair Display',serif;margin:.67em 0}h1{font-size:2.8em;text-align:center;position:relative;text-decoration:underline;text-decoration-color:#006000;text-decoration-thickness:8px;text-decoration-skip-ink:none}h2{font-size:2.3em}h3{font-size:1.8em}h4{font-size:1.5em;font-style:italic}h5{font-size:1.5em}h6{font-size:1.5em;font-weight:400;font-style:italic}blockquote,pre{background-color:#00ff0008;border-left:6px solid #006000;padding-left:1em}img{display:block;margin:0 auto;box-shadow:0 0 20px 10px #0f0f0f}a{color:#eee;text-decoration:underline;text-decoration-color:#006000;text-decoration-thickness:6px;text-decoration-skip-ink:none}a:hover{color:#00e000;text-decoration:underline;text-decoration-color:#008000;text-decoration-thickness:8px}table{border-collapse:collapse}td,th{padding:0 1em}td{border-top:2px solid #006000;border-bottom:2px solid #006000}/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.5;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}.backlinks-title{margin-bottom:0}.backlinks-container{margin-top:0}.backlinks-default{margin-top:0;margin-left:16px;color:var(--grey)}.backlink__preview{display:none;position:absolute;bottom:100%;left:0;background-color:#181818;border-radius:4px;padding:4px;box-shadow:0 0 4px 2px rgba(0,0,0,.25);width:500px;max-height:148px;overflow:hidden;font-size:.8em}.backlink__preview::after{content:"";position:absolute;bottom:0;background:linear-gradient(transparent,#181818);width:100%;height:50px}.backlink__preview h1{font-size:1.2rem;margin-top:8px;font-weight:700}.backlink{width:fit-content;position:relative}.backlink:hover{padding-right:4px}.backlink:hover .backlink__preview{display:block}
     </style>
   </head>
   <body>
     <main>
-        <h1>Remote Harvesting</h1>
-<p>The standard approach to remote harvesting is to build containers next to the source and drop-harvest into the containers. Roads from the main room to the remote source make dedicated haulers more efficient (the hauiler can move at 1 square/tick with 1M/2C instead of 2M/2C, saving energy and spawn time). If the harvester has 6 work parts, it can use its down time (when not harvesting) to repair the container, saving on sending a dedicated repairer.</p>
-<p>An analysis originally posted in the Screeps slack, reposted by <a href="https://discord.com/channels/860665589738635336/864238310058754069/885907058581454880">Donatzor in the Discord</a>:</p>
-<pre><code>//since I am bored, I would like to audit the cost of remote mining
-/*roles involved:
-Miner 3M1C6W == 800e (2M1C3W for unreserved mining)
-Hauler n*(1M2C) == 150e * n
-Reserver 1M2Cl == 1250e (0 for unreserved mining)
-Guard 10M8R2H == 2200e
-Repairer 10M7C3W == 1150e
-
-structures involved:
-roads &amp; containers
-
-ALL CALCULATION ARE BASED ON energy (e) PER TICK BASIS
-
-Cost for each role involved:
-Miner == 800e / (1500 - dist);
-
-Hauler == 150e * n; //for 100 carryCapacity every n multiple
-100 carryCapacity can serve single source for dist == 5
-n == dist / 5;
-A hauler can do m times round trip during 1500 ticks
-m == Math.floor(1500 / (2 * dist)) == Math.floor(750 / dist);
-where the remaining ticks, not enough to make a round trip,
-is wasted.
-The hauler is then effectively lived for
-t == (2 * dist) * Math.floor(750 / dist);
-cost == (150e * dist / 5) / ((2 * dist) * Math.floor(750 / dist));
-cost == 15e / Math.floor(750 / dist);
-
-Reserver reserves the controller for 2 * (600 - dist) ticks.
-cost == 1250e / (2 * (600 - dist));
-cost == 625e / (600 - dist);
-
-A guard can guard for 9rooms while standing at the center room.
-9 rooms can contain up to 12 sources.
-cost == 2200e / (12 * 1500);
-cost == 0.122e;
-
-A repairer can repair the roads of 9 rooms while patrolling.
-Assume the roads leading to 12 sources has been take care of.
-cost == 1150e / (12 * 1500);
-cost == 0.064e;
-
-Miner should repair its own container.
-Cost of container == 50e / 100 == 0.5e;
-
-Cost of roads:
-Number of roads involved == dist;
-cost of natural decay == dist;
-To calculate total decay, for each creep stepping on it,
-The body size is divided by walking interval, times the dist.
-
-Decay of miner stepping on it:
-decay == 10 body every (1500 - dist) ticks;
-decay == 10 * dist / (1500 - dist);
-
-Decay of hauler stepping on it:
-decay == 3 * n every tick
-decay == 3 * dist / 5 == 0.6 * dist;
-
-Decay of reserver stepping on it:
-decay == 3 * dist every (2 * (600 - dist)) ticks
-decay == 1.5 * dist / (600 - dist);
-
-Guard and repairer should use off-road mode,
-while performing their duty.
-decay == 0;
-
-Total decay == dist + 10 * dist / (1500 - dist) + 
-				0.6 * dist + 1.5 * dist / (600 - dist);
-Total decay == 1.6 * dist + 10 * dist / (1500 - dist) + 
-				1.5 * dist / (600 - dist);
-Total road cost == (1.6 * dist + 10 * dist / (1500 - dist) + 
-				1.5 * dist / (600 - dist)) * 0.001e;
-
-Summary:
-The cost of remote mining per tick versus dist:
-cost ==
-800e / (1500 - dist) +
-15e / Math.floor(750 / dist) +
-625e / (600 - dist) +
-0.122e +
-0.064e +
-0.5e +
-(1.6 * dist + 10 * dist / (1500 - dist) + 
-	1.5 * dist / (600 - dist)) * 0.001e;
-	
-cost == 
-800e / (1500 - dist) +
-15e / Math.floor(750 / dist) +
-625e / (600 - dist) +
-0.686e +
-(1.6 * dist + 10 * dist / (1500 - dist) + 
-	1.5 * dist / (600 - dist)) * 0.001e;
-With hauler being major cost,
-and the road costs about half of the miner cost.
-
-Single source room
-Dist  Cost   Efficiency
-0     2.261  77%
-50    3.455  65%
-100   4.811  52%
-150   5.909  41%
-200   8.186  19%
-250   8.515  15%
-251   11.02  -10%(loss)
-*Note: Efficiency is obtained by subtracting the cost from 10e
-Mining speed is 10e per source.
-
-Double source room (Reserver cost cut half)
-Dist  Cost   Efficiency
-0     1.740  82%
-50    2.886  71%
-100   4.186  58%
-150   5.214  48%
-200   7.404  26%
-250   7.621  24%
-251   10.12  -2.4%(loss)
-
-source (without reserving it - doesn't matter single / double!)
-Dist  Cost   Efficiency
-0     1.019  80%
-50    1.596  68%
-100   2.245  55%
-150   2.752  45%
-200   3.832  23%
-250   3.912  22%
-251   5.164  -3.2%(loss)
-*Note: Efficiency is obtained by subtracting the cost from 5e,
-since without reserving, the mining speed is 5e.
-
-Notice the great loss between dist == 250 and dist == 251
-*/
-Well, the conclusion, I leave it to yours
-</code></pre>
-<h2>Remote Defense</h2>
-<p>See <a href="/screeps-remote-security/">Securing Remotes</a></p>
+        <h1>Securing Remotes</h1>
+<h2>Invaders</h2>
+<p>Invader cores will harass remotes, reserving the controller to lock the sources from being harvested. These are easy to defend against; they do not attack, so a simple guard creep with a pattern of 1A/1M can kill them with no trouble.</p>
+<h2>Other Bots</h2>
+<p>Harassment from other bots can be more expensive. If it costs more to defend a remote than the energy it brings in, it may be more economical to simply abandon the remote until it can be safely harvested again.</p>
+<p>This can be tracked by measuring the energy spent on a remote (spawning, defense, repairing roads/containers, etc.) and comparing it to the energy brought back.</p>
 
         <section>
             <hr>
@@ -159,11 +26,19 @@ Well, the conclusion, I leave it to yours
             <ul class="backlinks-container">
                 
                     <li class="backlink">
-                        <a href="/screeps-economy/" class="backlink__link">Screeps Economy</a>
+                        <a href="/screeps-remote-harvesting/" class="backlink__link">Screeps remote harvesting</a>
                         <div class="backlink__preview" role="none">
-                            <h1>Economy</h1>
-<p>There are three primary currencies in Screeps: energy, CPU, and spawn time.</p>
-<p><strong>Energy</strong> is harvested from sources and used to spawn creeps, build structures, upgrade the controller, or pay for boosts/terminal transfers/link trans</p>
+                            <h1>Remote Harvesting</h1>
+<p>The standard approach to remote harvesting is to build containers next to the source and drop-harvest into the containers. Roads from the main room to the remote source make dedicated haulers more efficient (the hauiler</p>
+
+                        </div>
+                    </li>
+                
+                    <li class="backlink">
+                        <a href="/screeps/" class="backlink__link">Screeps</a>
+                        <div class="backlink__preview" role="none">
+                            <h1>Screeps</h1>
+<p><a href="https://screeps.com/">Screeps</a> is an MMORTS in which you write a script to control your units. There's a high skill ceiling because of the complexity of the environment - everything from unit composition to building placement is</p>
 
                         </div>
                     </li>

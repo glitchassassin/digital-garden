@@ -8,3 +8,5 @@ Naively, haulers deposit energy in the outside containers, and any source links 
 
 Before the fastfiller is complete, however, the right-hand creeps don't have as many extensions to fill. Sometimes the left-hand container will run out of energy first, and although there is energy in the right-hand container, those creeps can't refill the left-hand extensions. So, there's some optimization to be had in balancing the energy across the fastfiller *through* the middle extensions.
 
+In addition, the creeps should deposit energy from the link into the containers, once the extensions are full; this allows more energy to be transferred by link (cheaper than haulers), and lets haulers direct their attention elsewhere.
+

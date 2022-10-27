@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Screeps infrastructure.md",
+                "file": "Screeps fastfiller.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -24,14 +24,16 @@
             "id": "89aa0127c04266cd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/sample.png"
+                "file": "Screeps.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "287ede11e836fa5a",
@@ -116,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/sample.png",
+                "file": "Screeps fastfiller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/sample.png",
+                "file": "Screeps fastfiller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/sample.png"
+                "file": "Screeps fastfiller.md"
               }
             }
           }
@@ -170,16 +172,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "89aa0127c04266cd",
+  "active": "27c1497a355a0ff8",
   "lastOpenFiles": [
-    "Screeps fastfiller.md",
-    "Screeps infrastructure.md",
     "Screeps.md",
+    "images/20221026161024.png",
     "Screeps Economy.md",
+    "Screeps infrastructure.md",
+    "images/sample.png",
+    "Screeps fastfiller.md",
     "Screeps remote security.md",
     "Screeps remote harvesting.md",
     "Screeps Power Harvesting.md",
-    "index.md",
-    "Testing Git.md"
+    "index.md"
   ]
 }

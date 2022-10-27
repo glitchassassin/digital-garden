@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Screeps fastfiller.md",
+                "file": "Screeps.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Screeps fastfiller.md",
+                "file": "Screeps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Screeps fastfiller.md",
+                "file": "Screeps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Screeps fastfiller.md"
+                "file": "Screeps.md"
               }
             }
           }
@@ -201,6 +201,7 @@
   },
   "active": "89aa0127c04266cd",
   "lastOpenFiles": [
+    "Screeps fastfiller.md",
     "Screeps.md",
     "Screeps Economy.md",
     "Screeps infrastructure.md",

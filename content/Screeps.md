@@ -7,7 +7,7 @@
 - [[Screeps Economy|Economy]]
 	- [[Screeps remote security]]
 	- Logistics
-		- Fastfiller
+		- [[Screeps fastfiller|Fastfiller]]
 - [[Screeps infrastructure|Infrastructure]]
 - Power
 	- [[Screeps Power Harvesting|Harvesting]]

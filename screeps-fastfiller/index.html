@@ -14,7 +14,7 @@
     <main>
         <h1>Fastfiller Logic</h1>
 <p>A Fastfiller is a stamp with three spawns, a link, two containers, fifteen extensions, and four filler creeps. This makes it easy to rapidly refill extensions to minimize spawn downtime.</p>
-<p><img src="images/20221026161024.png" alt=""></p>
+<p>!<a href="/images-screeps-fastfiller-png/">images/Screeps fastfiller.png</a></p>
 <p>Naively, haulers deposit energy in the outside containers, and any source links transfer to the central link; then the filler creeps withdraw from one of the three storages and transfer to adjacent empty extensions/spawns.</p>
 <p>Before the fastfiller is complete, however, the right-hand creeps don't have as many extensions to fill. Sometimes the left-hand container will run out of energy first, and although there is energy in the right-hand container, those creeps can't refill the left-hand extensions. So, there's some optimization to be had in balancing the energy across the fastfiller <em>through</em> the middle extensions.</p>
 <p>In addition, the creeps should deposit energy from the link into the containers, once the extensions are full; this allows more energy to be transferred by link (cheaper than haulers), and lets haulers direct their attention elsewhere.</p>

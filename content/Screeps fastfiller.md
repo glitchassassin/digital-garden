@@ -2,7 +2,7 @@
 
 A Fastfiller is a stamp with three spawns, a link, two containers, fifteen extensions, and four filler creeps. This makes it easy to rapidly refill extensions to minimize spawn downtime.
 
-![](images/20221026161024.png)
+![[images/Screeps fastfiller.png]]
 
 Naively, haulers deposit energy in the outside containers, and any source links transfer to the central link; then the filler creeps withdraw from one of the three storages and transfer to adjacent empty extensions/spawns.
 

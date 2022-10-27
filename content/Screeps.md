@@ -11,4 +11,3 @@
 - [[Screeps infrastructure|Infrastructure]]
 - Power
 	- [[Screeps Power Harvesting|Harvesting]]
-- 

@@ -17,6 +17,7 @@
     "@sindresorhus/slugify": "^1.1.2",
     "markdown-it": "^13.0.1",
     "markdown-it-attrs": "^4.1.4",
-    "markdown-it-footnote": "^3.0.3"
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-obsidian-images": "^1.0.1"
   }
 }

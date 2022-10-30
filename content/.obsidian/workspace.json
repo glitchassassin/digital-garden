@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Screeps fastfiller.md",
+                "file": "Screeps infrastructure.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "321a8486f326175f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
               }
             }
           },
@@ -33,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "287ede11e836fa5a",
@@ -118,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Screeps fastfiller.md",
+                "file": "Screeps infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Screeps fastfiller.md",
+                "file": "Screeps infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Screeps fastfiller.md"
+                "file": "Screeps infrastructure.md"
               }
             }
           }
@@ -169,17 +180,14 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "27c1497a355a0ff8",
+  "active": "321a8486f326175f",
   "lastOpenFiles": [
+    "Screeps fastfiller.md",
     "Screeps.md",
     "images/20221026161024.png",
     "Screeps Economy.md",
     "Screeps infrastructure.md",
     "images/sample.png",
-    "Screeps fastfiller.md",
     "Screeps remote security.md",
     "Screeps remote harvesting.md",
     "Screeps Power Harvesting.md",

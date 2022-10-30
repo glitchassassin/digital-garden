@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Screeps infrastructure.md",
+                "file": "Screeps.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,15 @@
             }
           },
           {
-            "id": "321a8486f326175f",
+            "id": "713834191bcafa65",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.0.3"
+                "file": "Screeps Combat Strategy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -129,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Screeps infrastructure.md",
+                "file": "Screeps Combat Strategy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Screeps infrastructure.md",
+                "file": "Screeps Combat Strategy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Screeps infrastructure.md"
+                "file": "Screeps Combat Strategy.md"
               }
             }
           }
@@ -180,15 +183,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "321a8486f326175f",
+  "active": "27c1497a355a0ff8",
   "lastOpenFiles": [
-    "Screeps fastfiller.md",
     "Screeps.md",
+    "Screeps remote security.md",
+    "Screeps infrastructure.md",
+    "Screeps fastfiller.md",
     "images/20221026161024.png",
     "Screeps Economy.md",
-    "Screeps infrastructure.md",
     "images/sample.png",
-    "Screeps remote security.md",
     "Screeps remote harvesting.md",
     "Screeps Power Harvesting.md",
     "index.md"

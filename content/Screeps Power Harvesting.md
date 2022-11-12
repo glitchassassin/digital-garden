@@ -40,12 +40,11 @@ If it is, the analysis (including the path distance, the number of duos and haul
 
 ## Adding Boosts
 
-Currently, cracking a power bank takes 2-4 duos depending on distance. 
+Currently, cracking a power bank takes 2-4 duos depending on distance. With boosts, we can reduce that to a single duo, depending on distance:
 
-### T1 boosts
-
-
-### T3 boosts
-
-A simple duo build looks like 20 MOVE + 35 ATTACK + 45 HEAL, putting out 4,200 damage per tick and 2,160 healing. A single T3 boosted duo could crack a power bank in 477 ticks.
+| Boosts | Build       | Damage/tick | Healing/tick | Time to crack |
+| ------ | ----------- | ----------- | ------------ | ------------- |
+| T1     | 33M/29A/37H | 1,740       | 888          | 1,150 ticks   |
+| T2     | 25M/33A/42H | 2,970       | 1,512        | 674 ticks     |
+| T3     | 20M/35A/45H | 4,200       | 2,160        | 477 ticks     |
 

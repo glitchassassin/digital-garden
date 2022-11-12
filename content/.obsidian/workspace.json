@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Screeps Combat Strategy.md",
+                "file": "Screeps remote security.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Screeps.md",
+                "file": "Screeps remote security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Screeps.md",
+                "file": "Screeps remote security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Screeps.md"
+                "file": "Screeps remote security.md"
               }
             }
           }
@@ -183,8 +183,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "27c1497a355a0ff8",
+  "active": "713834191bcafa65",
   "lastOpenFiles": [
+    "Screeps Combat Strategy.md",
     "Screeps.md",
     "Screeps remote security.md",
     "Screeps infrastructure.md",
@@ -193,7 +194,6 @@
     "Screeps Economy.md",
     "images/sample.png",
     "Screeps remote harvesting.md",
-    "Screeps Power Harvesting.md",
-    "index.md"
+    "Screeps Power Harvesting.md"
   ]
 }

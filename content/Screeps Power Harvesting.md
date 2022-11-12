@@ -37,3 +37,9 @@ It's fairly straightforward to estimate the cost to crack a power bank - it's ju
 This should be compared with the current market cost of power to determine if a power bank is worth cracking.
 
 If it is, the analysis (including the path distance, the number of duos and haulers to commit, and estimated cost of power recovered) should be converted to an order that can generate SquadMissions.
+
+## Adding Boosts
+
+Currently, cracking a power bank takes 2-4 duos depending on distance. With T3 boosts, a duo build looks like:
+
+Attacker - 

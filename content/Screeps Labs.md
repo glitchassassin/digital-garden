@@ -10,10 +10,14 @@ Each reaction takes two input labs and one output lab. Once the reaction runs, t
 
 A simple initial approach is to have two designated input labs, making the rest outputs which the inputs will cycle through as the output labs cool down. In this example, the two central labs are the inputs and the outer ring are the outputs. Every lab can be accessed from the road through the middle:
 
-![](Pasted%20image%2020221113143149.png)
+![[Screeps Labs.png]]
 
 A dedicated hauler can pick up the input resources from terminal/storage, fill the input labs, and then collect the output and haul it back, repeating as necessary.
 
 ## Boosts
 
-Once labs have created boosts with reactions, 
+Once labs have created boosts with reactions, a lab can apply the boost. It takes 30 units of the boost compound and 20 units of energy to boost a single creep part. A given lab can hold 3000 units of boost compound and 2000 units of energy, so it can boost up to 100 body parts with a full store (though it can only hold one type of compound at a time).
+
+## Deciding to Boost
+
+As an aside, it should be noted that boosting is not *always* the right answer. Evaluate the cost of the boosts vs. the extra energy, CPU, and spawn time to send multiple and/or larger creeps to achieve the same goal. If the boosts cost less (or unboosted creeps simply aren't viable), then use them - otherwise, take the cheaper route!

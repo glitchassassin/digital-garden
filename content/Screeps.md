@@ -12,3 +12,4 @@
 - Power
 	- [[Screeps Power Harvesting|Harvesting]]
 - [[Screeps Combat Strategy]]
+- [[Screeps Labs|Labs]]

@@ -48,3 +48,12 @@ Currently, cracking a power bank takes 2-4 duos depending on distance. With boos
 | T2     | 25M/33A/42H | 2,970       | 1,512        | 674 ticks     |
 | T3     | 20M/35A/45H | 4,200       | 2,160        | 477 ticks     |
 
+What if we boost haulers too?
+
+| Boosts | Build   | Carry capacity | Max haulers |
+| ------ | ------- | -------------- | ----------- |
+| T1     | 17M/33C | 3,300          | 3 (maybe 4) |
+| T2     | 12M/36C | 5,400          | 2           |
+| T3     | 10M/40C | 8,000          | 2           |
+
+If the total to haul is greater than 5,400 but less than 8,000, T3 boosts let us send a single hauler instead of two; otherwise, we should aim for at most T2 boosts.

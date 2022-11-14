@@ -50,6 +50,8 @@ Currently, cracking a power bank takes 2-4 duos depending on distance. With boos
 
 This is without `TOUGH` - but boosts give `TOUGH` parts damage reduction, which means we need fewer `HEAL` parts for the same number of `ATTACK` parts. 
 
+Each `TOUGH` part will reduce damage taken, up to `100 / (1 - damageReduction)` (~143 for T1 to ~333 for T3). 
+
 | Boosts | Build          | Damage/tick (mitigated) | Healing/tick | Time to crack |
 | ------ | -------------- | ----------------------- | ------------ | ------------- |
 | T1     | 1T/33M/34A/31H | 2,040 (1,428)           | 1,488        | 980 ticks     |

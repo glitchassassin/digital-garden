@@ -69,7 +69,7 @@
 </tbody>
 </table>
 <p>This is without <code>TOUGH</code> - but boosts give <code>TOUGH</code> parts damage reduction, which means we need fewer <code>HEAL</code> parts for the same number of <code>ATTACK</code> parts.</p>
-<p>Each <code>TOUGH</code> part will reduce damage taken, up to <code>100 / damageReduction</code> (~43 for T1 to ~333 for T3).</p>
+<p>Each <code>TOUGH</code> part will reduce damage taken, up to <code>100 - (100 / (1 - damageReduction))</code> (~43 hits for T1 to ~233 for T3).</p>
 <table>
 <thead>
 <tr>

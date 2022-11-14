@@ -48,6 +48,14 @@ Currently, cracking a power bank takes 2-4 duos depending on distance. With boos
 | T2     | 25M/33A/42H | 2,970       | 1,512        | 674 ticks     |
 | T3     | 20M/35A/45H | 4,200       | 2,160        | 477 ticks     |
 
+This is without `TOUGH` - but boosts give `TOUGH` parts damage reduction, which means we need fewer `HEAL` parts for the same number of `ATTACK` parts. 
+
+| Boosts | Build          | Damage/tick (mitigated) | Healing/tick | Time to crack |
+| ------ | -------------- | ----------------------- | ------------ | ------------- |
+| T1     | 1T/33M/34A/31H | 2,040 (1,428)           | 1,488        | 980 ticks   |
+| T2     | 25M/33A/42H    | 2,970                   | 1,512        | 674 ticks     |
+| T3     | 20M/35A/45H    | 4,200                   | 2,160        | 477 ticks     |
+
 What if we boost haulers too?
 
 | Boosts | Build   | Carry capacity | Max haulers |
@@ -57,3 +65,4 @@ What if we boost haulers too?
 | T3     | 10M/40C | 8,000          | 2           |
 
 If the total to haul is greater than 5,400 but less than 8,000, T3 boosts let us send a single hauler instead of two; otherwise, we should aim for at most T2 boosts.
+

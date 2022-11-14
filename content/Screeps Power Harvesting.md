@@ -52,8 +52,8 @@ This is without `TOUGH` - but boosts give `TOUGH` parts damage reduction, which 
 
 | Boosts | Build          | Damage/tick (mitigated) | Healing/tick | Time to crack |
 | ------ | -------------- | ----------------------- | ------------ | ------------- |
-| T1     | 1T/33M/34A/31H | 2,040 (1,428)           | 1,488        | 980 ticks   |
-| T2     | 25M/33A/42H    | 2,970                   | 1,512        | 674 ticks     |
+| T1     | 1T/33M/34A/31H | 2,040 (1,428)           | 1,488        | 980 ticks     |
+| T2     | 1T/25M/33A/42H | 2,970                   | 1,512        | 674 ticks     |
 | T3     | 20M/35A/45H    | 4,200                   | 2,160        | 477 ticks     |
 
 What if we boost haulers too?

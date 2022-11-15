@@ -52,9 +52,16 @@ This is without `TOUGH` - but boosts give `TOUGH` parts damage reduction, which 
 
 Each `TOUGH` part will reduce damage taken, up to `(100 / (1 - damageReduction)) - 100` (~43 hits for T1, 100 for T2, ~233 for T3). This means a T1 boosted tough part is equivalent to 1.79 T1 heal parts; a T2 is equivalent to 2.78 T2 heal parts; and a T3 is equivalent to 4.86 heal parts.
 
-```ts
-const damageReduced = (100 / (1 - damageReduction)) - 100
-const effectiveHealing = 
+
+
+```
+nonMoveParts = 66
+healPower = 24
+damageReduced = (100 / (1 - 0.3)) - 100 = 43
+effectiveHealing = damageReduced / healPower = 1.79
+1T/1A/1H => 60dmg, 24 
+
+
 ```
 
 | Boosts | Build          | Damage/tick (mitigated) | Healing/tick | Time to crack |

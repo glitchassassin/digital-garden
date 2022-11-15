@@ -55,7 +55,7 @@ I tried to work out a formula for this, but gave up and wrote a simulator script
 | Boosts | Build          | Damage/tick (mitigated) | Healing/tick | Time to crack |
 | ------ | -------------- | ----------------------- | ------------ | ------------- |
 | T1     | 3T/33M/30A/33H | 1,800 (1,671)           | 792          | 1111 ticks     |
-| T2     | 1T/25M/33A/42H | 2,970                   | 1,512        | 674 ticks     |
+| T2     | 3T/25M/34A/35H | 2,970                   | 1,512        | 653 ticks     |
 | T3     | 20M/35A/45H    | 4,200                   | 2,160        | 477 ticks     |
 
 What if we boost haulers too?

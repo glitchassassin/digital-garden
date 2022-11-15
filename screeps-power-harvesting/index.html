@@ -69,7 +69,7 @@
 </tbody>
 </table>
 <p>This is without <code>TOUGH</code> - but boosts give <code>TOUGH</code> parts damage reduction, which means we need fewer <code>HEAL</code> parts for the same number of <code>ATTACK</code> parts.</p>
-<p>I tried to work out a formula for this, but gave up and wrote a simulator script instead. Results:</p>
+<p>I tried to work out a formula for this, but gave up and wrote a simulator script to calculate the best builds (max attack damage and cheapest body where healing keeps up with power bank return damage) instead. Results:</p>
 <table>
 <thead>
 <tr>
@@ -86,24 +86,25 @@
 <td>3T/33M/30A/33H</td>
 <td>1,800 (1,671)</td>
 <td>792</td>
-<td>1111 ticks</td>
+<td>1112 ticks</td>
 </tr>
 <tr>
 <td>T2</td>
-<td>3T/25M/34A/35H</td>
-<td>2,970</td>
-<td>1,512</td>
-<td>653 ticks</td>
+<td>3T/24M/34A/35H</td>
+<td>3,060 (2,760)</td>
+<td>1,260</td>
+<td>654 ticks</td>
 </tr>
 <tr>
 <td>T3</td>
-<td>20M/35A/45H</td>
-<td>4,200</td>
-<td>2,160</td>
-<td>477 ticks</td>
+<td>2T/20M/38A/38H</td>
+<td>4,560 (4,093)</td>
+<td>1,824</td>
+<td>439 ticks</td>
 </tr>
 </tbody>
 </table>
+<p>This doesn't significantly reduce the time to crack, but it does make our builds more energy-efficient - a HEAL part costs 25 times more than a <code>TOUGH</code> part,</p>
 <p>What if we boost haulers too?</p>
 <table>
 <thead>

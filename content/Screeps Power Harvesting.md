@@ -97,6 +97,6 @@ Let's pick an example based on current market prices. We'll assume the power ban
 
 Three unboosted duos costs 33,780 energy and 900 spawn-ticks. Four unboosted haulers costs 10,000 energy and 600 spawn-ticks. This is a total of 43,780 energy, which we could sell for 676,970.14 credits. This means our 5,000 units of power must be worth more than 135.39 credits per unit - and, indeed, they are.
 
-One T1 boosted duo costs 8,250 energy + 1,980 energy to boost + 42,083.91 credits worth of boosts and 300 spawn-ticks. If we boost the haulers as well, they'll cost 4,950 energy + 1,980 energy to boost + 67,864 credits worth of boosts. This is a total of 17,230 energy, and a grand total of 266,427.49 credits.
+One T1 boosted duo costs 8,250 energy + 1,980 energy to boost + 42,083.91 credits worth of boosts and 300 spawn-ticks. If we boost the haulers as well, they'll cost 3,750 energy + 1,500 energy to boost + 93,528.75 credits worth of boosts. This is a total of 17,230 energy, and a grand total of 239,367.24 credits.
 
 One T2 boosted duo costs 12,700 energy + 1,920 energy to boost + 182,088.96 credits worth of boosts and 288 spawn-ticks. If we boost the haulers as well,  This is a total of 14,620 energy, and a grand total 

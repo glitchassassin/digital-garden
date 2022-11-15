@@ -50,13 +50,15 @@ Currently, cracking a power bank takes 2-4 duos depending on distance. With boos
 
 This is without `TOUGH` - but boosts give `TOUGH` parts damage reduction, which means we need fewer `HEAL` parts for the same number of `ATTACK` parts. 
 
-I tried to work out a formula for this, but gave up and wrote a simulator script instead. Results:
+I tried to work out a formula for this, but gave up and wrote a simulator script to calculate the best builds (max attack damage and cheapest body where healing keeps up with power bank return damage) instead. Results:
 
 | Boosts | Build          | Damage/tick (mitigated) | Healing/tick | Time to crack |
 | ------ | -------------- | ----------------------- | ------------ | ------------- |
-| T1     | 3T/33M/30A/33H | 1,800 (1,671)           | 792          | 1111 ticks     |
-| T2     | 3T/25M/34A/35H | 2,970                   | 1,512        | 653 ticks     |
-| T3     | 20M/35A/45H    | 4,200                   | 2,160        | 477 ticks     |
+| T1     | 3T/33M/30A/33H | 1,800 (1,671)           | 792          | 1112 ticks    |
+| T2     | 3T/24M/34A/35H | 3,060 (2,760)           | 1,260        | 654 ticks     |
+| T3     | 2T/20M/38A/38H | 4,560 (4,093)           | 1,824        | 439 ticks     |
+
+This doesn't significantly reduce the time to crack, but it does make our builds more energy-efficient - a HEAL part costs 25 times more than a `TOUGH` part,
 
 What if we boost haulers too?
 

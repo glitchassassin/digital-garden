@@ -80,15 +80,20 @@ But there are different configurations: we could send multiple unboosted duos, o
 
 Let's pick an example based on current market prices. We'll assume the power bank has an average of 5,000 power.
 
-| Resource    | Price     |
-| ----------- | --------- |
-| Energy      | 15.463cr  |
-| UH (Attack) | 55.646cr  |
-| LO (Heal)   | 42.509cr  |
-| ZO (Move)   | 34.219cr  |
-| GO (Tough)  | 8.828cr   |
-| KH (Carry)  | 45.243cr  | 
-| Power       | 238.662cr |
+| Resource      | Price     |
+| ------------- | --------- |
+| Energy        | 15.463cr  |
+| UH (Attack)   | 55.646cr  |
+| LO (Heal)     | 42.509cr  |
+| ZO (Move)     | 34.219cr  |
+| GO (Tough)    | 8.828cr   |
+| KH (Carry)    | 45.243cr  |
+| UH20 (Attack) | 13.369cr  |
+| LHO2 (Heal)   | 100.298cr |
+| ZHO2 (Move)   | 74.188cr  |
+| GHO2 (Tough)  | 108.048cr |
+| KH2O (Carry)  | 13.205cr  |
+| Power         | 238.662cr |
 
 Three unboosted duos costs 33,780 energy and 900 spawn-ticks. Four unboosted haulers costs 10,000 energy and 600 spawn-ticks. This is a total of 43,780 energy, which we could sell for 676,970.14 credits. This means our 5,000 units of power must be worth more than 135.39 credits per unit - and, indeed, they are.
 

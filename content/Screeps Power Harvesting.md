@@ -72,5 +72,12 @@ If the total to haul is greater than 5,400 but less than 8,000, T3 boosts let us
 
 ### Counting the Cost
 
-Now, is it *worth* it to spend resources boosting power bank creeps? This depends on the relative price of power, minerals, and energy.
+Now, is it *worth* it to spend resources boosting power bank creeps? This depends on the relative value of power, minerals, energy, spawn time, and CPU.
 
+As a hard baseline, if you can sell the energy + minerals it will take to harvest the power for more than it would cost to buy the power, it is obviously not worthwhile to run the mission.
+
+But there are different configurations: we could send multiple unboosted duos, or a single boosted duo with T1, T2, or T3 boosts. Likewise, we could boost the haulers (or not). Boosts may be costly, but will save energy (fewer parts needed) and spawn time.
+
+Let's pick an example based on current market prices.
+
+Three unboosted 

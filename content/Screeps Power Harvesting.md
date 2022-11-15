@@ -55,10 +55,7 @@ Each `TOUGH` part will reduce damage taken, up to `(100 / (1 - damageReduction))
 
 
 ```
-nonMoveParts = 66
-healPower = 24
-damageReduced = (100 / (1 - 0.3)) - 100 = 43
-effectiveHealing = damageReduced / healPower = 1.79
+
 1T/1A/1H => 60dmg, 24 
 
 

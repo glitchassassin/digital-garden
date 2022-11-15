@@ -70,3 +70,7 @@ What if we boost haulers too?
 
 If the total to haul is greater than 5,400 but less than 8,000, T3 boosts let us send a single hauler instead of two; otherwise, we should aim for at most T2 boosts.
 
+### Counting the Cost
+
+Now, is it *worth* it to spend resources boosting power bank creeps? This depends on the relative price of power, minerals, and energy.
+

@@ -54,6 +54,7 @@ Each `TOUGH` part will reduce damage taken, up to `(100 / (1 - damageReduction))
 
 ```ts
 const damageReduced = (100 / (1 - damageReduction)) - 100
+const effectiveHealing = 
 ```
 
 | Boosts | Build          | Damage/tick (mitigated) | Healing/tick | Time to crack |

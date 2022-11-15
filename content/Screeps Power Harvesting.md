@@ -99,4 +99,4 @@ Three unboosted duos costs 33,780 energy and 900 spawn-ticks. Four unboosted hau
 
 One T1 boosted duo costs 8,250 energy + 1,980 energy to boost + 42,083.91 credits worth of boosts and 100 . If we boost the haulers as well, they'll cost 5,000 energy + 2,000 energy to boost + 67,864 credits worth of boosts. This is a total of 17,230 energy, and a grand total of 266,427.49 credits.
 
-One T2 boosted duo costs 
+One T2 boosted duo costs 12,700 energy + 1,920 energy to boost + and 288 spawn time

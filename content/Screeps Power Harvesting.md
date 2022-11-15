@@ -78,6 +78,20 @@ As a hard baseline, if you can sell the energy + minerals it will take to harves
 
 But there are different configurations: we could send multiple unboosted duos, or a single boosted duo with T1, T2, or T3 boosts. Likewise, we could boost the haulers (or not). Boosts may be costly, but will save energy (fewer parts needed) and spawn time.
 
-Let's pick an example based on current market prices.
+Let's pick an example based on current market prices. We'll assume the power bank has an average of 5,000 power.
 
-Three unboosted 
+| Resource    | Price     |
+| ----------- | --------- |
+| Energy      | 15.463cr  |
+| UH (Attack) | 55.646cr  |
+| LO (Heal)   | 42.509cr  |
+| ZO (Move)   | 34.219cr  |
+| GO (Tough)  | 8.828cr   |
+| KH (Carry)  | 45.243cr  | 
+| Power       | 238.662cr |
+
+Three unboosted duos costs 33,780 energy and 900 spawn-ticks. Four unboosted haulers costs 10,000 energy and 600 spawn-ticks. This is a total of 43,780 energy, which we could sell for 676,970.14 credits. This means our 5,000 units of power must be worth more than 135.39 credits per unit - and, indeed, they are.
+
+One T1 boosted duo costs 8,250 energy + 1,980 energy to boost + 42,083.91 credits worth of boosts and 100 . If we boost the haulers as well, they'll cost 5,000 energy + 2,000 energy to boost + 67,864 credits worth of boosts. This is a total of 17,230 energy, and a grand total of 266,427.49 credits.
+
+One T2 boosted duo costs 

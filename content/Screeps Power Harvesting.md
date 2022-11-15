@@ -80,23 +80,30 @@ But there are different configurations: we could send multiple unboosted duos, o
 
 Let's pick an example based on current market prices. We'll assume the power bank has an average of 5,000 power.
 
-| Resource      | Price     |
-| ------------- | --------- |
-| Energy        | 15.463cr  |
-| UH (Attack)   | 55.646cr  |
-| LO (Heal)     | 42.509cr  |
-| ZO (Move)     | 34.219cr  |
-| GO (Tough)    | 8.828cr   |
-| KH (Carry)    | 45.243cr  |
-| UH20 (Attack) | 13.369cr  |
-| LHO2 (Heal)   | 100.298cr |
-| ZHO2 (Move)   | 74.188cr  |
-| GHO2 (Tough)  | 108.048cr |
-| KH2O (Carry)  | 13.205cr  |
-| Power         | 238.662cr |
+| Resource       | Price     |
+| -------------- | --------- |
+| Energy         | 15.463cr  |
+| UH (Attack)    | 55.646cr  |
+| LO (Heal)      | 42.509cr  |
+| ZO (Move)      | 34.219cr  |
+| GO (Tough)     | 8.828cr   |
+| KH (Carry)     | 45.243cr  |
+| UH20 (Attack)  | 13.369cr  |
+| LHO2 (Heal)    | 100.298cr |
+| ZHO2 (Move)    | 74.188cr  |
+| GHO2 (Tough)   | 108.048cr |
+| KH2O (Carry)   | 13.205cr  |
+| XUH20 (Attack) | 68.416cr  |
+| XLHO2 (Heal)   | 126.839cr |
+| XZHO2 (Move)   | 210.601cr |
+| XGHO2 (Tough)  | 177.241cr |
+| XKH2O (Carry)  | 371.099cr |
+| Power          | 238.662cr |
 
 Three unboosted duos costs 33,780 energy and 900 spawn-ticks. Four unboosted haulers costs 10,000 energy and 600 spawn-ticks. This is a total of 43,780 energy, which we could sell for 676,970.14 credits. This means our 5,000 units of power must be worth more than 135.39 credits per unit - and, indeed, they are.
 
-One T1 boosted duo costs 8,250 energy + 1,980 energy to boost + 42,083.91 credits worth of boosts and 300 spawn-ticks. If we boost the haulers as well, they'll cost 3,750 energy + 1,500 energy to boost + 93,528.75 credits worth of boosts. This is a total of 17,230 energy, and a grand total of 239,367.24 credits.
+One T1 boosted duo costs 8,250 energy + 1,980 energy to boost + 42,083.91 credits worth of boosts and 300 spawn-ticks. If we boost the haulers as well (50C/25M total), they'll cost 3,750 energy + 1,500 energy to boost + 93,528.75 credits worth of boosts. This is a total of 17,230 energy, and a grand total of 239,367.24 credits.
 
-One T2 boosted duo costs 12,700 energy + 1,920 energy to boost + 182,088.96 credits worth of boosts and 288 spawn-ticks. If we boost the haulers as well,  This is a total of 14,620 energy, and a grand total 
+One T2 boosted duo costs 12,700 energy + 1,920 energy to boost + 182,088.96 credits worth of boosts and 288 spawn-ticks. If we boost the haulers as well (34C/12M total), they'll cost 2300 energy + 920 energy to boost + 40,176.78 credits worth of boosts and 138 spawn-ticks. This is a total of 15,528 energy, and a grand total of 462,375.204 credits.
+
+One T3 boosted duo costs 13,560 energy + 1,960 energy to boost + 359,585.76 credits worth of boosts and 294 spawn-ticks. If we boost the haulers as well (25C/7M total), they'll cost 1,600 energy + 640 energy to boost + 322,550.46 credits worth of boosts and 96 spawn-ticks.

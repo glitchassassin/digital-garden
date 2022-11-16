@@ -110,4 +110,4 @@ One T3 boosted duo costs 13,560 energy + 1,960 energy to boost + 359,585.76 cred
 
 Now, this analysis has some issues - we're assuming that we scale the haulers down to size, but the duos aren't being scaled at all. Depending on how much time we have to crack the power bank (how far away it is, power bank ticks to live) we could get by with smaller duos (and fewer boosts).
 
-T1 boosts still take 1112 ticks to crack the bank. Allowing for 200 ticks to boost the creep, that gives just under 200 ticks of movement. 
+T1 boosts still take 1112 ticks to crack the bank. Allowing for 200 ticks to boost the creep, that gives just under 200 ticks of movement. That's not very much; 

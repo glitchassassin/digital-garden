@@ -109,3 +109,5 @@ One T2 boosted duo costs 12,700 energy + 1,920 energy to boost + 182,088.96 cred
 One T3 boosted duo costs 13,560 energy + 1,960 energy to boost + 359,585.76 credits worth of boosts and 294 spawn-ticks. If we boost the haulers as well (25C/7M total), they'll cost 1,600 energy + 640 energy to boost + 322,550.46 credits worth of boosts and 96 spawn-ticks. This is a total of 17,760 energy, and a grand total of 956,759.10 credits.
 
 Now, this analysis has some issues - we're assuming that we scale the haulers down to size, but the duos aren't being scaled at all. Depending on how much time we have to crack the power bank (how far away it is, power bank ticks to live) we could get by with smaller duos (and fewer boosts).
+
+T1 boosts still take 1112 ticks to crack the bank. Allowing for 200 ticks to boost the creep, that gives just under 200 ticks of movement. 

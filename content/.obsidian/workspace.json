@@ -23,7 +23,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Screeps Power Harvesting.md",
+                "file": "index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5136f215b54a211c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Satisfactory.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "370c82039827346b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Satisfactory factory design.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "287ede11e836fa5a",
@@ -113,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "caa281a1322c4b61",
@@ -130,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Screeps Power Harvesting.md",
+                "file": "Satisfactory factory design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Screeps Power Harvesting.md",
+                "file": "Satisfactory factory design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Screeps Power Harvesting.md"
+                "file": "Satisfactory factory design.md"
               }
             }
           }
@@ -181,17 +206,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fbfd68908c28c8a8",
+  "active": "370c82039827346b",
   "lastOpenFiles": [
-    "Screeps remote harvesting.md",
+    "Satisfactory.md",
+    "index.md",
+    "Screeps infrastructure.md",
     "Screeps Power Harvesting.md",
+    "Screeps remote harvesting.md",
     "Screeps Labs.md",
     "Screeps Market.md",
     "Pasted image 20221113144455.png",
     "Pasted image 20221026212717.png",
-    "images/Screeps Labs.png",
-    "Pasted image 20221113143149.png.md",
-    "Screeps.md",
-    "Screeps infrastructure.md"
+    "images/Screeps Labs.png"
   ]
 }
